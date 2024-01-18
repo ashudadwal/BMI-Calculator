@@ -1,0 +1,88 @@
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* App Styling */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Container Styling */
+.container {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 2rem;
+  background-color: #fff;
+  width: 100%;
+  max-width: 400px; /* Set your desired max width */
+}
+
+/* Input Styling */
+input {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+}
+
+/* Button Styling */
+.btn {
+  display: block;
+  width: 100%;
+  font-size: 1.2rem;
+  margin: 10px 0;
+  padding: 12px;
+  background-color: #0077EE;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+} /* Add a semicolon here */
+
+/* Outline Button Styling */
+.btn-outline {
+  background-color: #fff;
+  color: #0077EE;
+  border: 1px solid #0077EE;
+}
+
+/* Center Styling */
+.center {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Paragraph Styling */
+p {
+  margin: 8px 0;
+}
+
+/* Image Container Styling */
+.img-container {
+  text-align: center;
+}
+
+.img-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
